@@ -1,9 +1,7 @@
-.logout {
-  width: 100vw;
-  background-color: rgb(255, 234, 252);
+.main {
   display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid #9d8189;
+  padding: 10px;
+  gap: 10px;
 }
 
 input {
@@ -15,17 +13,6 @@ input {
 
 input:focus {
   border-bottom: 2px solid #ae959d;
-}
-
-p {
-  padding: 10px;
-}
-
-.main {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
 }
 
 button {

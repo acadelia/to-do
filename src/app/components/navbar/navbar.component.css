@@ -1,0 +1,16 @@
+.logout {
+  width: 100vw;
+  background-color: rgb(255, 234, 252);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #9d8189;
+}
+
+p {
+  padding: 10px;
+}
+
+.logout-div {
+  display: flex;
+  align-items: center;
+}

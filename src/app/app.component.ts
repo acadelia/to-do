@@ -19,5 +19,5 @@ import { TaskComponent } from './pages/task/task.component';
   styleUrl: 'app.component.css',
 })
 export class AppComponent {
-  title = 'todo';
+  title = 'todoshka';
 }

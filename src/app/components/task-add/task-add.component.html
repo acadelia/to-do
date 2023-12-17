@@ -1,6 +1,7 @@
 <div class="add-task">
   <h2>Add a new task</h2>
   <div class="main">
+    <img src="/assets/clouds-2.png" alt="clouds" class="clouds" />
     <input
       type="text"
       id="input-task"
@@ -8,6 +9,11 @@
       maxlength="20"
       [(ngModel)]="newTaskTitle"
       (keyup.enter)="addTask()"
+    />
+    <img
+      src="/assets/clouds-2.png"
+      alt="clouds"
+      class="clouds mirrored-image"
     />
   </div>
 </div>
