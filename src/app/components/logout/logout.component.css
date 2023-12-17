@@ -1,0 +1,37 @@
+.logout {
+  width: 100vw;
+  background-color: rgb(255, 234, 252);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #9d8189;
+}
+
+input {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  border-radius: 4px 4px 0 0;
+}
+
+input:focus {
+  border-bottom: 2px solid #ae959d;
+}
+
+p {
+  padding: 10px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+button {
+  background-color: #9d8189;
+  width: 70px;
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+}

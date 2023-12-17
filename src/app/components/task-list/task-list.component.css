@@ -1,0 +1,31 @@
+.boundary {
+  width: 50%;
+  height: 100vh;
+  max-width: 100%;
+  border-right: dotted #ccc 2px;
+}
+
+ul {
+  list-style: none;
+}
+
+.list {
+  width: 130px;
+  height: 150px;
+  border: solid 1px #ccc;
+  color: #9d8189;
+  cursor: move;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  border-radius: 4px;
+  margin-right: 25px;
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 10px;
+}
+/* de adaugat trei cercuri cu culori sa le poti modifica la click!! */
+/* 9d8189, d8e2dc, b3687d */
