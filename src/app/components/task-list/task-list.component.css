@@ -1,31 +1,57 @@
-.boundary {
-  width: 50%;
-  height: 100vh;
-  max-width: 100%;
-  border-right: dotted #ccc 2px;
+.section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
-ul {
-  list-style: none;
+.boundary {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  position: relative;
+}
+
+.boundary::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #ccc;
+  z-index: 2;
 }
 
 .list {
   width: 130px;
   height: 150px;
-  border: solid 1px #ccc;
-  color: #9d8189;
+  border: solid 10px #d49fae;
+  color: #d49fae;
   cursor: move;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #fff;
-  border-radius: 4px;
+  background: #b3687d;
+  border-radius: 10px;
   margin-right: 25px;
   position: relative;
   z-index: 1;
   box-sizing: border-box;
   padding: 10px;
+}
+
+.list button {
+  border: none;
+  background-color: #943636;
+  border-radius: 7px;
+  color: #c3a5ad;
+  float: right;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-align: center;
+  cursor: pointer;
 }
 /* de adaugat trei cercuri cu culori sa le poti modifica la click!! */
 /* 9d8189, d8e2dc, b3687d */

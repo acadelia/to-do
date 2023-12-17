@@ -16,4 +16,8 @@ export class TaskListComponent {
   constructor(private taskService: TaskService) {
     this.tasks = this.taskService.getTasks();
   }
+
+  deleteTask(id: number) {
+    this.tasks = this.tasks.filter((task) => task.id !== id);
+  }
 }

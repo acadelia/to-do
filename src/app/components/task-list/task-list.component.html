@@ -1,16 +1,12 @@
-<!-- <p>for today i have to:</p>
-<div class="boundary">
-  <ul>
-    @for (task of tasks; track task.id) {
-    <li cdkDrag cdkDragBoundary=" .boundary">{{ task.title }}</li>
-    }
-  </ul>
-</div> -->
-<p>for today i have to:</p>
+<div class="section">
+  <p>for today i have to:</p>
+  <p>already done:</p>
+</div>
 <div class="boundary">
   @for (task of tasks; track task.id) {
   <div class="list" cdkDrag cdkDragBoundary=" .boundary">
-    X {{ task.title }}
+    <button (click)="deleteTask(task.id)">x</button>
+    <div>{{ task.title }}</div>
   </div>
   }
 </div>
